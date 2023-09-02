@@ -507,6 +507,30 @@
     }, false);
   </script>
 
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBQ-dF7H9M-shb45pzQiKrgWwa1u-S8EHg",
+    authDomain: "kusal-themiya.firebaseapp.com",
+    projectId: "kusal-themiya",
+    storageBucket: "kusal-themiya.appspot.com",
+    messagingSenderId: "585599083544",
+    appId: "1:585599083544:web:27323fe7f3af21028b0f6d",
+    measurementId: "G-SPCSMJR0ZH"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
 </body>
 
 </html>
